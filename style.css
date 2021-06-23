@@ -196,3 +196,138 @@ body,h1,h2,h3,h4,h5{
 .footer-bottom p{
     color: #fff;
 }
+/* responsive */
+
+@media all and (max-width:1400px) {
+    .fixd-wieth {
+        width: 1200px;
+        padding:0 20px;
+        box-sizing: border-box;
+    }
+}
+@media all and (max-width:1200px) {
+    .fixd-wieth {
+        width: 1024px;
+    }
+}
+@media all and (max-width:1024px) {
+    .fixd-wieth {
+        width: 992px;
+    }
+    .left-text-div p {
+        font-size: 14px;
+    }
+    .service-item {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+}
+@media all and (max-width:992px) {
+    .fixd-wieth {
+        width: 860px;
+    }
+    .banner-section {
+        padding: 90px 0;
+    }
+    .banner-section h1 {
+        font-size: 65px;
+    }
+    .banner-section p {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .left-img-div {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .left-text-div {
+        width: 100%;
+    }
+}
+@media all and (max-width:860px) {
+    .fixd-wieth {
+        width: 776px;
+    }
+    .right-menu ul {
+        text-align: center;
+    }
+    .right-menu {
+        width: 100%;
+    }
+    .left-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .left-logo h2 {
+        line-height: 40px;
+    }
+}
+@media all and (max-width:776px) {
+    .fixd-wieth {
+        width: 570px;
+    }
+    .right-menu ul li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .right-menu ul li {
+        line-height: 35px;
+    }
+    .left-logo h2 a {
+        font-size: 25px;
+    }
+    .service-item {
+        width: 100%;
+    }
+    .contact-item p {
+        font-size: 14px;
+    }
+    .banner-section h1 {
+        font-size: 50px;
+    }
+    .banner-section p {
+        font-size: 14px;
+    }
+    .banner-section {
+        padding: 40px 0;
+    }
+}
+@media all and (max-width:570px) {
+    .fixd-wieth {
+        width: 400px;
+    }
+    .contact-item {
+        width: 100%;
+    }
+    .banner-section {
+        padding: 30px 0;
+    }
+    .right-menu ul li a {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .service-head p {
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width:570px) {
+    .fixd-wieth {
+        width: 300px;
+    }
+    .right-menu ul li a {
+        font-size: 10px;
+        padding: 0px 3px;
+        border-left: 1px solid #fff;
+    }
+    .right-menu ul li {
+        line-height: 12px;
+        padding-bottom: 15px;
+    }
+    .banner-section h1 {
+        font-size: 35px;
+    }
+    .banner-section p {
+        font-size: 12px;
+        margin-bottom: 13px;
+    }
+}
